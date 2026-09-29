@@ -1,0 +1,63 @@
+/*1*/ 
+:root {
+  --verde-oscuro: #1A4731;
+  --verde-medio: #2D6A4F;
+  --naranja: #E8611A;
+  --blanco: #ffffff;
+  --poppins: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*2*/ 
+body {
+  font-family: var(--poppins);
+  background-image: url(https://img.magnific.com/free-vector/neutral-coloured-hand-painted-watercolour-texture-background_1048-20601.jpg?semt=ais_hybrid&w=740&q=80);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  max-width: 1100px;
+  margin: 0 auto;
+  
+}
+/*3*/ 
+header { 
+  background: var(--verde-oscuro) ;
+  color: #ffffff; 
+  padding: 1rem;
+
+}
+/*4*/ 
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+nav a {
+    color: var(--naranja);
+    text-decoration: none;
+  }
+
+  nav a:hover{
+    color: var(--blanco)
+  }
+/*5*/ 
+.servicios {
+display: flex;
+flex-wrap: wrap; 
+gap: 1.5rem;
+border-color: var(--verde-medio);
+border-radius: 8px;
+}
+/*6*/ 
+footer {
+  background-color: var(--verde-oscuro);
+    color: var(--blanco);
+    text-align: center;
+  
+}
