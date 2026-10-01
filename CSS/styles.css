@@ -234,3 +234,49 @@ footer p {
   color: var(--gris-medio);
   line-height: 1.6;
 }
+
+.lugaresDestacados {
+    background-color: var(--gris-piedra);
+    color: var(--blanco-nieve);
+    padding: 2rem;
+    margin: 2rem 0;
+    border-left: 5px solid var(--dorado-antiguo);
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.lugaresDestacados h2 {
+    color: var(--dorado-antiguo);
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--gris-medio);
+    padding-bottom: 0.8rem;
+}
+
+.lugaresDestacados > p {
+    color: var(--gris-medio);
+    margin-bottom: 1.5rem;
+}
+
+.lugaresDestacados article {
+    padding: 1rem 0;
+    margin: 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(174, 183, 191, 0.2);
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.lugaresDestacados article:last-child {
+    border-bottom: none;
+}
+
+.lugaresDestacados article h3 {
+    color: var(--blanco-nieve);
+    margin-bottom: 0.4rem;
+}
+
+.lugaresDestacados article p {
+    color: var(--gris-medio);
+    margin-bottom: 0;
+}
